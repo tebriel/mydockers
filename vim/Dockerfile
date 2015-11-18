@@ -1,3 +1,4 @@
+# Docker to run vim
 FROM debian:sid
 
 MAINTAINER Chris Moultrie <chris@moultrie.org>
