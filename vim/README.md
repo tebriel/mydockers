@@ -13,3 +13,5 @@ use `(pwd)`.
 
 Also vim-fugitive is in there, so you'll need your ssh keys if you want to
 push/pull. So map that too.
+
+vim-fugutive is broken...try again later
