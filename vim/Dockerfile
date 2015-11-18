@@ -12,10 +12,10 @@ RUN apt-get update && apt-get install -y \
         cmake \
         python \
         python-dev \
-        vim \
+        vim-nox \
         ctags \
         vim-doc \
-        vim-scripts 
+        vim-scripts
 
 USER user
 ENV HOME /home/user
@@ -56,5 +56,9 @@ RUN git clone --recursive https://github.com/derekwyatt/vim-scala $HOME/.vim/bun
 WORKDIR $HOME/.vim/bundle/YouCompleteMe
 
 RUN ./install.py --clang-completer
+
+RUN mkdir $HOME/workdir
+
+WORKDIR $HOME/workdir
 
 CMD ["vim"]

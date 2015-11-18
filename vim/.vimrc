@@ -4,6 +4,36 @@
 set nocompatible
 set shell=/bin/bash
 
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+set runtimepath^=~/.vim/bundle/vim-commentary
+set runtimepath^=~/.vim/bundle/vim-markdown
+set runtimepath^=~/.vim/bundle/vim-less
+set runtimepath^=~/.vim/bundle/vim-git
+set runtimepath^=~/.vim/bundle/vim-fugitive
+set runtimepath^=~/.vim/bundle/syntastic
+set runtimepath^=~/.vim/bundle/neosnippet
+set runtimepath^=~/.vim/bundle/YouCompleteMe
+set runtimepath^=~/.vim/bundle/conque-term
+set runtimepath^=~/.vim/bundle/webapi-vim
+set runtimepath^=~/.vim/bundle/gist-vim
+set runtimepath^=~/.vim/bundle/vim-stylus
+set runtimepath^=~/.vim/bundle/securemodelines
+set runtimepath^=~/.vim/bundle/funcoo.vim
+set runtimepath^=~/.vim/bundle/dash.vim
+set runtimepath^=~/.vim/bundle/vim-fish
+set runtimepath^=~/.vim/bundle/tabular
+set runtimepath^=~/.vim/bundle/vim-indent-guides
+set runtimepath^=~/.vim/bundle/dart-vim-plugin
+set runtimepath^=~/.vim/bundle/vim-coffee-script
+set runtimepath^=~/.vim/bundle/ag.vim
+set runtimepath^=~/.vim/bundle/python-mode
+set runtimepath^=~/.vim/bundle/jedi-vim
+set runtimepath^=~/.vim/bundle/vim-airline
+set runtimepath^=~/.vim/bundle/logstash.vim
+set runtimepath^=~/.vim/bundle/vim-rails
+set runtimepath^=~/.vim/bundle/vim-autoformat-rails
+set runtimepath^=~/.vim/bundle/vim-scala
+
 "Fix bundle stuff
 filetype plugin indent on
 syntax on
